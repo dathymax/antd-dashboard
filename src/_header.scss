@@ -1,0 +1,21 @@
+.header {
+    &__logo {
+        width: 130px;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__action {
+        float: right;
+        margin-right: 20px;
+        padding: 10px;
+        &--hello, &--name {
+            display: block;
+            color: var(--white-color);
+            line-height: 23px;
+            text-align: right;
+        }
+        &--name {
+            font-size: 17px;
+        }
+    }
+}

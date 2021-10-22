@@ -1,0 +1,9 @@
+.categories {
+    display: flex;
+    &__item {
+        margin-right: 30px;
+        .anticon {
+            margin-left: 7px;
+        }
+    }
+}

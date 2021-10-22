@@ -1,0 +1,135 @@
+@import '~antd/dist/antd.css';
+
+:root {
+    --white-color: #fff;
+    --primary-color: #7C0340;
+    --gray-color-ea: #EAEAEA;
+    --gray-color-e5: #E5E5E5;
+}
+
+.ant-layout-header {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.ant-layout-sider {
+    background: var(--gray-color-ea);
+    position: relative;
+    height: 100vh;
+}
+
+.ant-menu-submenu-title {
+    background: var(--gray-color-e5);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ant-menu-submenu.ant-menu-submenu-inline {
+    background: var(--gray-color-e5);
+}
+
+.ant-menu.ant-menu-sub.ant-menu-inline {
+    background: var(--gray-color-e5);
+}
+
+.ant-menu-submenutitle {
+    margin: 0;
+}
+
+.ant-btn.ant-btn-primary {
+    background: var(--gray-color-e5);
+    border: none;
+    box-shadow: none;
+    float: right;
+    width: 100%;
+    text-align: right;
+}
+
+.ant-input {
+    width: 355px;
+    border: none;
+    outline: none;
+}
+
+.ant-input:focus {
+    box-shadow: none;
+}
+
+.ant-layout-sider.ant-layout-sider-dark {
+    flex: none;
+    max-width: 250px;
+    min-width: 250px;
+    width: 250px;
+}
+
+.ant-layout-content {
+    padding: 0 50px 50px 50px;
+}
+
+.ant-layout-item {
+    padding: 30px;
+}
+
+.ant-menu-inline .ant-menu-submenu-title {
+    margin: 0;
+}
+
+.ant-menu-vertical .ant-menu-submenu-title {
+    margin: 0;
+}
+
+.ant-breadcrumb {
+    margin: 16px 0;
+}
+
+.ant-layout-content {
+    padding: 0 50px;
+}
+
+.ant-table-thead > tr > th {
+    background: var(--white-color);
+    font-size: 18px;
+}
+
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    background-color: var(--white-color);
+    content: "";
+}
+
+.ant-table-tbody > tr > td {
+    border-bottom: none;
+    font-size: 18px;
+}
+
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link {
+    border-radius: 50%;
+}
+
+.ant-pagination-item {
+    border-radius: 50%;
+}
+
+.container {
+    background: var(--white-color);
+    padding: 24px 24px 24px 50px;
+    border-radius: 5px;
+    border: 2px solid #EDF2F9;
+    position: relative;
+}
+
+.container .total-record {
+    position: absolute;
+    right: 200px;
+    bottom: 42px;
+}
+
+.break-line {
+    
+}
+
+@import './header';
+@import './action';
+@import './categories';
+@import './listEmployee';
