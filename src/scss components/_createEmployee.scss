@@ -1,0 +1,47 @@
+.create-employee {
+    padding: 0 50px;
+    .ant-input {
+        width: 50%;
+    }
+    .ant-input-affix-wrapper.ant-input-password {
+        width: 50%;
+        .ant-input {
+            width: 90%;
+        }
+        .ant-input-suffix {
+            padding-right: 0;
+        }
+    }
+    .ant-select.ant-select-single.ant-select-show-arrow {
+        width: 50%;
+    }
+    .ant-input-affix-wrapper::before {
+        width: 0;
+        display: none;
+        content: " ";
+    }
+    .choose-role {
+        display: flex;
+        flex-direction: column;
+        .ant-checkbox-wrapper {
+            width: 20%;
+        }
+        .space {
+            height: 30px;
+        }
+        .ant-checkbox-wrapper {
+            margin-left: 8px;
+            margin-bottom: 10px;
+        }
+    }
+    .btn-submit {
+        width: 30%;
+        text-align: center;
+        .ant-form-item-control-input-content {
+            
+        }
+    }
+    .ant-col.ant-form-item-label.ant-col-xs-12.ant-col-sm-3 {
+        text-align: left;
+    }
+}

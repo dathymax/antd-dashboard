@@ -1,0 +1,19 @@
+.action {
+    display: flex;
+    padding-bottom: 20px;
+    color: #BDBDBD;
+    font-size: 18px;
+    font-weight: 400;
+    &__item {
+        padding-right: 30px;
+    }
+    .anticon {
+        margin-right: 7px;
+    }
+    .ant-btn.ant-btn-primary {
+        background: #fff;
+        color: #BDBDBD;
+        border: none;
+        box-shadow: none;
+    }
+}

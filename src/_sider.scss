@@ -1,0 +1,41 @@
+.sider {
+    .ant-layout-sider {
+        flex: 0 0 250px !important;
+        max-width: 250px !important;
+        min-width: 250px !important;
+        width: 250px !important;
+        background: var(--gray-color-ea);
+        position: relative;
+        height: 100vh;
+    }
+    .ant-layout-sider-collapsed {
+        flex: 0 0 80px !important;
+        max-width: 80px !important;
+        width: 80px !important;
+        min-width: 80px !important;
+    }
+    .ant-layout-sider.ant-layout-sider-dark {
+        flex: none;
+        max-width: 250px;
+        min-width: 250px;
+        width: 250px;
+    }
+    .btn {
+        .ant-btn {
+            border-radius: 0;
+        }
+        .ant-btn.ant-btn-primary {
+            background: var(--gray-color-e5);
+            border: none;
+            box-shadow: none;
+            float: right;
+            width: 100%;
+        }
+        .anticon.anticon-menu-fold {
+            float: right;
+        }
+    }
+    .ant-menu.ant-menu-sub.ant-menu-inline {
+        margin-left: 1px;
+    }
+}
