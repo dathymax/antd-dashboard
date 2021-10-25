@@ -38,7 +38,7 @@ const data = [
         name: "Do Tuan Dat",
         email: "dathymax@gmail.com",
         phone: "0984193954",
-        role: "Dev",
+        role: "Nhân viên",
         state: "Active",
     },
 ]; // rowSelection object indicates the need for row selection

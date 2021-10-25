@@ -18,4 +18,10 @@
             font-size: 17px;
         }
     }
+    .ant-layout-header {
+        background: var(--primary-color);
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
 }
