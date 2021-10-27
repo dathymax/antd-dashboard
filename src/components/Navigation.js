@@ -1,5 +1,4 @@
-import { Button, Dropdown, Layout } from 'antd'
-import Menu from 'rc-menu/lib/Menu';
+import { Button, Dropdown, Menu } from 'antd'
 import React from 'react'
 
 const menu = (
