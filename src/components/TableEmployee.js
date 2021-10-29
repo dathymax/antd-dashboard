@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Divider, Radio, Table } from "antd";
+import { Divider, Pagination, Radio, Table } from "antd";
 import Menu from "rc-menu/lib/Menu";
 
 
@@ -130,8 +130,15 @@ const TableEmployee = () => {
                 }}
                 columns={columns}
                 dataSource={data}
+                pagination={false}
             />
-            <span className="total-record">Total: 10</span>
+            <Pagination
+                className="pagination"
+                total={employees.length}
+                showTotal={total => `Total ${total} items`}
+                defaultPageSize={5}
+                defaultCurrent={1}
+            />
         </div>
     );
 };

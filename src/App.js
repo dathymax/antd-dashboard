@@ -54,8 +54,6 @@ const App = () => {
                             </Breadcrumb>
                             <Container/>
                         </Content>
-                        <Footer>
-                        </Footer>
                     </Layout>
                 </Layout>
             </Layout>

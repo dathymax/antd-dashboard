@@ -1,5 +1,13 @@
-import { Button, Dropdown, Menu } from 'antd'
+import { Dropdown, Menu } from 'antd'
 import React from 'react'
+
+// const changeTheme = (
+//     <Menu>
+//         <Menu.Item key="1">
+//             Change theme
+//         </Menu.Item>
+//     </Menu>
+// )
 
 const menu = (
     <Menu>
@@ -7,7 +15,7 @@ const menu = (
             <a href="https://www.antgroup.com">1st menu item</a>
         </Menu.Item>
         <Menu.Item key="1">
-            <a href="https://www.aliyun.com">2nd menu item</a>
+            <span className="header__action--name">Change theme</span>
         </Menu.Item>
     </Menu>
 );

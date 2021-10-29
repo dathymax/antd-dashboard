@@ -38,4 +38,10 @@
     .ant-menu.ant-menu-sub.ant-menu-inline {
         margin-left: 1px;
     }
+    .ant-menu-item.ant-menu-item-active {
+        color: rgba(0, 0, 0, 0.85);
+    }
+    a.active {
+        color: rgba(0, 0, 0, 0.85);
+    }
 }
