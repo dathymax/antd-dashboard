@@ -1,16 +1,18 @@
 @import '~antd/dist/antd.css';
 
-$white-color: #fff;
-$primary-color: #7C0340;
-$gray-color-ea: #EAEAEA;
-$gray-color-e5: #E5E5E5;
+:root {
+    --primary-color: #7C0340;
+    --white-color: #fff;
+    --gray-color-ea: #EAEAEA;
+    --gray-color-e5: #E5E5E5;
+}
 
 .ant-layout-item {
     padding: 30px;
 }
 
 .container {
-    background: $white-color;
+    background: var(--white-color);
     padding: 24px 24px 24px 50px;
     border-radius: 5px;
     border: 2px solid #EDF2F9;
@@ -30,6 +32,10 @@ $gray-color-e5: #E5E5E5;
 
 .action-3dot {
     cursor: pointer;
+}
+
+.space-30 {
+    height: 30px;
 }
 
 @import './header';

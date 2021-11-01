@@ -1,15 +1,15 @@
 .menu {
     .ant-menu-submenu-title {
-        background: $gray-color-e5;
+        background: var(--gray-color-e5);
         margin-top: 0;
         margin-bottom: 0;
         width: calc(100% + 1px);
     }
     .ant-menu-submenu.ant-menu-submenu-inline {
-        background: $gray-color-e5;
+        background: var(--gray-color-e5);
     }
     .ant-menu.ant-menu-sub.ant-menu-inline {
-        background: $gray-color-e5;
+        background: var(--gray-color-e5);
     }
     .ant-menu-submenutitle {
         margin: 0;

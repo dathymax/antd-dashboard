@@ -2,14 +2,9 @@ import React from 'react'
 import {
     Form,
     Input,
-    InputNumber,
-    Cascader,
     Select,
-    Row,
-    Col,
     Checkbox,
     Button,
-    AutoComplete,
   } from 'antd';
 import { useState } from 'react';
 const { Option } = Select;

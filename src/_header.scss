@@ -1,6 +1,5 @@
 .ant-layout-header {
-        background: $primary-color; 
-        padding: 0 30px;  
+    padding: 0;
     .header {
         display: flex;
         justify-content: space-between;
@@ -13,10 +12,10 @@
         &__action {
             float: right;
             margin-right: 20px;
-            padding: 10px;
+            padding: 7px 10px 10px 10px;
             &--hello, &--name {
                 display: block;
-                color: $white-color;
+                color: var(--white-color);
                 line-height: 23px;
                 text-align: right;
             }
@@ -33,4 +32,59 @@
             }
         }
     }
+    .dropdown {
+        width: 300px;
+    }
+    .ant-dropdown-menu-item {
+        &:hover {
+            background-color: none;
+        }
+    }
+}
+.avatar {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+.action__dropdown {
+    margin: 0 10px;
+    display: block;
+}
+
+.ant-divider {
+    margin: 0
+}
+
+.ant-dropdown-menu-item {
+    justify-content: center;
+}
+
+.ant-dropdown-menu-title-content {
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.logout {
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.menu__color {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid rgb(237, 242, 249);
+    border-radius: 5px;
+    left: -70%;
+    top: -35px;
 }

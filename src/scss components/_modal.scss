@@ -10,8 +10,8 @@
         font-weight: 600;
     }
     .ant-btn {
-        background-color: $primary-color;
-        color: $white-color;
+        background-color: var(--primary-color);
+        color: var(--white-color);
         border-radius: 5px;
         &:active {
             border: none;

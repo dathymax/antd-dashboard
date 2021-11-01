@@ -41,7 +41,7 @@
             
         }
         .ant-btn.ant-btn-primary {
-            background: $primary-color;
+            background: var(--primary-color);
         }
     }
     .ant-col.ant-form-item-label.ant-col-xs-12.ant-col-sm-3 {
