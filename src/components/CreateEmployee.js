@@ -201,7 +201,7 @@ const CreateEmployee = () => {
 
                 <Form.Item>
                     <div className="btn-submit">
-                        <Button type="primary" htmlType="submit">
+                        <Button type="primary" htmlType="submit"  >
                             Tạo mới
                         </Button>
                     </div>

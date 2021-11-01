@@ -1,5 +1,5 @@
 import "./App.scss";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Breadcrumb, Button, Layout, Menu, Tabs } from "antd";
 import {
     MenuFoldOutlined,
@@ -12,11 +12,17 @@ import {
 import Navigation from "./components/Navigation";
 import SideBar from "./components/SideBar";
 import Container from "./components/Container";
+import { initTheme } from "./components/common/theme";
 
 const { Header, Sider, Footer, Content } = Layout;
 
 const App = () => {
     const [collapsed, setCollapsed] = useState()
+
+    useEffect(() => {
+        initTheme();
+    },[])
+
 
     const toggleCollapsed = () => {
         setCollapsed(!collapsed)

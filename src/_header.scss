@@ -80,11 +80,13 @@
 
 .menu__color {
     width: 200px;
-    height: 200px;
     position: absolute;
     background-color: #fff;
     border: 1px solid rgb(237, 242, 249);
     border-radius: 5px;
     left: -70%;
     top: -35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

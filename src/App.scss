@@ -26,8 +26,8 @@
 }
 
 .ant-checkbox-checked .ant-checkbox-inner {
-    background-color: #757575;
-    border-color: #757575;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
 }
 
 .action-3dot {
@@ -36,6 +36,18 @@
 
 .space-30 {
     height: 30px;
+}
+
+.ant-pagination-item-active a{
+    color: var(--primary-color) !important;
+}
+
+.ant-pagination-item-active{
+    border-color: var(--primary-color) !important;
+}
+
+.anticon-eye,span.anticon.anticon-eye-invisible.ant-input-password-icon {
+    color: var(--primary-color) !important;
 }
 
 @import './header';
