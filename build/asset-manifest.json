@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/antd-dashboard/static/css/main.526d011c.chunk.css",
+    "main.js": "/antd-dashboard/static/js/main.395ba707.chunk.js",
+    "main.js.map": "/antd-dashboard/static/js/main.395ba707.chunk.js.map",
+    "runtime-main.js": "/antd-dashboard/static/js/runtime-main.9113527c.js",
+    "runtime-main.js.map": "/antd-dashboard/static/js/runtime-main.9113527c.js.map",
+    "static/css/2.1384bbb0.chunk.css": "/antd-dashboard/static/css/2.1384bbb0.chunk.css",
+    "static/js/2.321ba4cb.chunk.js": "/antd-dashboard/static/js/2.321ba4cb.chunk.js",
+    "static/js/2.321ba4cb.chunk.js.map": "/antd-dashboard/static/js/2.321ba4cb.chunk.js.map",
+    "static/js/3.947eb450.chunk.js": "/antd-dashboard/static/js/3.947eb450.chunk.js",
+    "static/js/3.947eb450.chunk.js.map": "/antd-dashboard/static/js/3.947eb450.chunk.js.map",
+    "index.html": "/antd-dashboard/index.html",
+    "static/css/2.1384bbb0.chunk.css.map": "/antd-dashboard/static/css/2.1384bbb0.chunk.css.map",
+    "static/css/main.526d011c.chunk.css.map": "/antd-dashboard/static/css/main.526d011c.chunk.css.map",
+    "static/js/2.321ba4cb.chunk.js.LICENSE.txt": "/antd-dashboard/static/js/2.321ba4cb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9113527c.js",
+    "static/css/2.1384bbb0.chunk.css",
+    "static/js/2.321ba4cb.chunk.js",
+    "static/css/main.526d011c.chunk.css",
+    "static/js/main.395ba707.chunk.js"
+  ]
+}
